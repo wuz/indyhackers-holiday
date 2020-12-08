@@ -80,6 +80,10 @@ body {
 	font-family: 'IBM Plex Mono', monospace;
 }
 
+.flow * + * {
+	margin-top: 1rem;
+}
+
 .container {
 	width: 100%;
 	max-width: 960px;
@@ -209,4 +213,22 @@ header h2 {
 		-webkit-transform: translate3d(15%, 100%, 0);
 		transform: translate3d(15%, 100%, 0);
 	}
+}
+
+.button {
+	background: #4e7842;
+	text-decoration: none;
+	color: white;
+	padding: 1em 2em;
+	border-radius: 3px;
+	font-size: 24px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer {
+	display: grid;
+	place-items: center;
+	padding: 1em 2em;
 }
